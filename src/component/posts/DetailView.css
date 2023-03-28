@@ -1,0 +1,94 @@
+.detailed-view,
+.detailed-view-content {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detailed-view>img {
+    width: 70%;
+    object-fit: contain;
+    position: relative;
+}
+
+.detailed-view-grp1 {
+    display: flex;
+    width: 100%;
+    position: relative;
+    left: 78%;
+}
+
+.detailed-view-edit,
+.detailed-view-delete {
+    font-size: 16px;
+    margin: 4px;
+    padding: 2px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.detailed-view-content {
+    margin-top: 1rem;
+    width: 70%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    margin: 0px;
+}
+
+.detailed-view-title {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.detailed-view-description {
+    font-size: 18px;
+    margin-top: 0px;
+    /* background: #F5F5F5;
+    padding: 15px; */
+}
+
+.detailed-view-grp2 {
+    display: flex;
+}
+
+.detailed-view-username {
+    font-size: 14px;
+    font-weight: 600;
+    right: 33%;
+    position: absolute;
+    margin: 0px;
+}
+
+.detailed-view-date {
+    font-size: 12px;
+    margin: 0px;
+    left: 16%;
+    position: absolute;
+}
+
+
+/* ############################### responsive design ############################## */
+
+@media only screen and (max-width: 650px) {
+    .detailed-view-date {
+        font-size: 10px;
+        position: relative;
+        left: 107%;
+    }
+    .detailed-view-username {
+        position: relative;
+        left: 100%;
+    }
+    .detailed-view-grp2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .detailed-view>img {
+        width: 100%;
+    }
+    .detailed-view-content {
+        width: 82%;
+    }
+}

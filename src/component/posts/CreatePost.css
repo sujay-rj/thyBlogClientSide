@@ -1,0 +1,101 @@
+.post-box {
+    /* border: 3px solid #17406c; */
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.slogan {
+    position: relative;
+    top: 64px;
+}
+
+.slogan>p {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.post-title {
+    display: flex;
+    font-size: 18px;
+    width: -webkit-fill-available;
+    padding: 6px;
+    border: none;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.post-title:focus {
+    outline: none;
+}
+
+.post-content {
+    width: 37rem;
+    height: 11rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.create-post-add {
+    display: flex;
+    align-items: center;
+}
+
+.post-image {
+    display: flex;
+    align-items: center;
+}
+
+.publish-btn {
+    background: #17406c;
+    color: white;
+    padding: 6px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: 8px;
+    text-decoration: none;
+}
+
+.publish-btn:hover {
+    color: #17406c;
+    background: white;
+    border: 2px solid black;
+}
+
+.post-default-image {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.post-default-image>img {
+    max-height: 26rem;
+    width: 70%;
+    object-fit: cover;
+}
+
+
+/* ############################  Responsive design ###################################### */
+
+@media only screen and (max-width: 650px) {
+    .post-default-image>img {
+        width: 100%;
+    }
+    .post-content {
+        width: 92%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        display: flex;
+    }
+}

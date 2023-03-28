@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f65b9a8d.css",
+    "main.js": "/static/js/main.8cbea256.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/img002.jpg": "/static/media/img002.b30e52febe688a021f1d.jpg",
+    "static/media/f04.jpg": "/static/media/f04.64c72201c3b72aa32a98.jpg",
+    "static/media/pencil011.jpg": "/static/media/pencil011.7566535091cc6088afb5.jpg",
+    "static/media/Sprituality.jpg": "/static/media/Sprituality.cb80293da23867d63630.jpg",
+    "static/media/Science.jpg": "/static/media/Science.d7dc4bd968a425de679c.jpg",
+    "static/media/Books.jpg": "/static/media/Books.7abfc0081089a882f987.jpg",
+    "static/media/gmail_logo.png": "/static/media/gmail_logo.00cad07fc47e95dab520.png",
+    "static/media/Tech.jpg": "/static/media/Tech.fce74f46543d0a44aa2c.jpg",
+    "static/media/Movies.jpg": "/static/media/Movies.114a2de80ad13b46eb28.jpg",
+    "static/media/Music.jpg": "/static/media/Music.89e4506ed76194fe87b5.jpg",
+    "static/media/Life Guidence.jpg": "/static/media/Life Guidence.ef85bb7702491bdcfd46.jpg",
+    "static/media/Politics.jpg": "/static/media/Politics.c1547cf0580dbc327cd3.jpg",
+    "static/media/Stories.jpg": "/static/media/Stories.72ad3cfe5b4d981e4845.jpg",
+    "static/media/Cricket.jpg": "/static/media/Cricket.7c9eb73fc942c35b9823.jpg",
+    "static/media/PD.jpg": "/static/media/PD.aec8158c97b6d68417f4.jpg",
+    "static/media/ig.webp": "/static/media/ig.2862199e37a75a027854.webp",
+    "static/media/fb.png": "/static/media/fb.10991f5290ad599da14e.png",
+    "index.html": "/index.html",
+    "main.f65b9a8d.css.map": "/static/css/main.f65b9a8d.css.map",
+    "main.8cbea256.js.map": "/static/js/main.8cbea256.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f65b9a8d.css",
+    "static/js/main.8cbea256.js"
+  ]
+}

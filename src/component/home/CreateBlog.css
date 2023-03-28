@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Petemoss&display=swap');
+.createContent {
+    height: fit-content;
+    min-height: 18rem;
+    background: #17406c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.createContent-btn {
+    width: 40%;
+    justify-content: center;
+    display: flex;
+}
+
+.createBlogBtn {
+    background: white;
+    color: #17406c;
+    padding: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    font-style: inherit;
+}
+
+.createBlogBtn:hover {
+    color: white;
+    background: black;
+    transition: smooth 0.1sec;
+}
+
+.createContent-quote {
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.quotation {
+    border: 2px solid white;
+    padding: 10px;
+    text-align: center;
+    margin: 2rem;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 0;
+    font-style: italic;
+    font-size: 19px;
+}
+
+.quotationAuthor {
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: 7%;
+}
+
+@media only screen and (max-width: 650px) {
+    .quotation {
+        font-size: 18px;
+    }
+}

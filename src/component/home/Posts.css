@@ -1,0 +1,8 @@
+.home-posts>a {
+    text-decoration: none;
+    color: black;
+}
+
+.home-posts {
+    align-items: center;
+}

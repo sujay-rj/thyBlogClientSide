@@ -1,0 +1,67 @@
+/* carousel styling */
+
+.rec.rec-arrow:hover {
+    color: #17406c;
+}
+
+.trendingBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative;
+    top: 99%;
+    width: 100%; */
+}
+
+.trendingTopics {
+    border-bottom: 1px solid rgba(24, 21, 21, 0.418);
+    width: 17rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.category-container {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.category-card .category-image {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #17406c;
+    margin-bottom: 12px;
+    margin: 4px;
+}
+
+.category-card .category-name>a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.category-card .category-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-sizing: border-box;
+}
+
+
+/*  */
+
+.sc-eDvSVe .lguFiu .rec .rec-carousel {
+    width: 80%;
+}
+
+.categoryTypeToView {
+    font-size: 18px;
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Petemoss&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.loginSection {
+    display: flex;
+}
+
+.loginImg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.loginField {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.thyBlog {
+    font-family: 'Petemoss', cursive;
+    color: white;
+    font-size: 99px;
+    margin-bottom: 4rem;
+}
+
+.loginField>input {
+    width: 19rem;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 8px;
+    padding-left: 15px;
+    margin: 0.9rem;
+    border-width: 0 0 2px;
+    outline: none;
+}
+
+.loginField>#btn1 {
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 3px;
+    margin: auto;
+    width: 4.5rem;
+    margin-top: 1rem;
+    justify-content: center;
+    border: none;
+}
+
+#btn2 {
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 20px;
+    background: none;
+    border: none;
+    font-size: 14px;
+}
+
+
+/* ############################################## */
+
+@media only screen and (max-width: 650px) {
+    .loginField>input {
+        width: 63%;
+        margin-left: 4rem;
+    }
+}

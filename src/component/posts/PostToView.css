@@ -1,0 +1,66 @@
+    .to-post {
+        justify-items: center;
+        display: grid;
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
+        border: 2px solid gray;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        width: 50%;
+        position: relative;
+        left: 25%;
+        border-radius: 9px;
+    }
+    
+    .to-post>img {
+        width: 80%;
+        border-radius: 5px;
+    }
+    
+    .postToView-title {
+        margin: 1rem;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .description {
+        font-size: 16px;
+        width: 80%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        margin: 0px;
+    }
+    
+    .minor-post-details {
+        display: flex;
+        width: 100%;
+    }
+    /* .post-category {
+    width: 20rem;
+    font-size: 10px;
+} */
+    
+    .post-author {
+        font-size: 14px;
+        font-weight: 600;
+        margin: 0px;
+        margin-left: auto;
+        margin-right: 10%;
+    }
+    /* ################################ Responsive design #################### */
+    
+    @media only screen and (max-width: 600px) {
+        .to-post {
+            margin-left: auto;
+            margin-right: auto;
+            width: 86%;
+            left: 0;
+        }
+        .description {
+            width: 94%;
+        }
+        .post-author {
+            margin-right: 4%;
+        }
+    }

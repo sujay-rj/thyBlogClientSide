@@ -1,0 +1,67 @@
+.writeComment {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    margin-bottom: 2rem;
+    margin-left: 15%;
+}
+
+.commentHead {
+    margin-left: 15%;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    font-size: 18px;
+    background: #17406c;
+    color: white;
+    padding: 15px;
+    width: 70%;
+    justify-items: center;
+    display: flex;
+}
+
+.writeComment>img {
+    width: 50px;
+}
+
+.writeComment>button {
+    margin: 10px;
+    background: #17406c;
+    color: white;
+    padding: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.writeComment>textarea {
+    width: 41%;
+    font-size: 16px;
+    padding: 8px;
+}
+
+
+/* #####################  responsive design ######################### */
+
+@media only screen and (max-width: 650px) {
+    .writeComment {
+        display: unset;
+        margin-left: 0;
+    }
+    .writeComment>button {
+        position: relative;
+        left: 70%;
+        font-size: 13px;
+    }
+    .writeComment>textarea {
+        width: 78%;
+    }
+    .writeComment>img {
+        width: 38px;
+    }
+    .commentHead {
+        width: 92%;
+        margin-left: 0;
+        padding: 4%;
+    }
+}
